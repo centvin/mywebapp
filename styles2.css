@@ -12,10 +12,11 @@ body
     margin-right: auto;
           background-color: burlywood;
     padding: 0;
-    background: url(images/csc.jpg);
+    background: url(mywebapp/csc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: sans-serif;
+    background-image: url(csc.jpg);
 }
 
 ul{
