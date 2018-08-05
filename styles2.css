@@ -1,6 +1,6 @@
 nav {
     float: right;
-    padding-right: 20px;
+    padding-right: 300px;
 }
 
 body
@@ -12,8 +12,7 @@ body
     margin-right: auto;
           background-color: burlywood;
     padding: 0;
-    background: url(mywebapp/csc.jpg);
-    background-repeat: no-repeat;
+    background-repeat: "";
     background-size: cover;
     font-family: sans-serif;
     background-image: url(csc.jpg);
@@ -57,11 +56,11 @@ ul li:hover ul li{
 {
     position: absolute;
     top: 25%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%, - 50);
     padding: 80px 40px;
     width: 430px;
-    height: 490px;
+    height: 460px;
     box-sizing: border-box;
     background: rgba(0,0,0,.5);
     opacity: .7;
@@ -90,15 +89,6 @@ h2{
     padding-left: 20px;
     text-align: center;
 }
-h5{
-    color: black;
-    font-size: 10px;
-    padding-top: 5px;
-    padding-left: 20px;
-    text-align: justify;
-   
-}
-
 
 .Box p
 {
@@ -109,7 +99,7 @@ h5{
 }
 .Box input
 {
-    width: 70%;
+    width: 40%;
     margin-bottom: 20px;
 }
 
@@ -126,6 +116,9 @@ h5{
     nav ul li{
         display: block;
     }
+    .Box input{
+        width: 55;
+    }
 }
 
 
@@ -137,5 +130,8 @@ h5{
     }
     .Box{
         width: 98%;
+    }
+    .Box input{
+        width: 60;
     }
 }
