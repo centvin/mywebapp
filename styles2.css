@@ -1,6 +1,6 @@
 nav {
     float: right;
-    padding-right: 200px;
+    padding-right: 100px;
 }
 
 body
@@ -10,12 +10,12 @@ body
         
         margin-right: auto;
     margin-right: auto;
-          background-color: burlywood;
+          background-color: "";
     padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: sans-serif;
-    background-image: url(csc.jpg);
+    background-image: "";
 }
 
 ul{
@@ -59,7 +59,7 @@ ul li:hover ul li{
     left: 50%;
     transform: translate(-50%, - 50);
     padding: 80px 40px;
-    width: 430px;
+    width: 450px;
     height: 480px;
     box-sizing: border-box;
     background: rgba(0,0,0,.5);
