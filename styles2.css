@@ -1,6 +1,6 @@
 nav {
     float: right;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
 body
@@ -10,12 +10,12 @@ body
         
         margin-right: auto;
     margin-right: auto;
-          background-color: "";
+          
     padding: 0;
-    background-repeat: no-repeat;
+    
     background-size: cover;
     font-family: sans-serif;
-    background-image: "";
+   
 }
 
 ul{
@@ -55,7 +55,7 @@ ul li:hover ul li{
 .Box
 {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, - 50);
     padding: 80px 40px;
